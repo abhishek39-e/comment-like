@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  background-color: #1f1e1e;
+  color: #fff;
+}
+.comment {
+  background-color: #fff;
+  width: 40vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  color: #1f1e1e;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 25px;
+}
+.content,
+.r1 {
+  background-color: #fff;
+  color: #1f1e1e;
+}
+.btn {
+  background-color: #fff;
+  color: #1f1e1e;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.r1 {
+  font-size: 26px;
+}
